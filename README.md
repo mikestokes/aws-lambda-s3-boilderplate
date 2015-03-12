@@ -1,5 +1,7 @@
 # aws-lambda-boilderplate
 
+(See accompanying blog post at [http://mikestokes.co/aws/2015/03/12/easy-testing-of-amazon-lambda-micro-services/](http://mikestokes.co/aws/2015/03/12/easy-testing-of-amazon-lambda-micro-services/)
+
 Boilerplate for AWS Lambda function trigger by any supported S3 event (e.g. file update or upload (put/post)). This repository also includes a test harness to help debug the Lambda function locally.
 
 ## Usage
