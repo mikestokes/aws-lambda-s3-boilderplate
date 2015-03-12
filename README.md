@@ -1,7 +1,21 @@
 # aws-lambda-boilderplate
 Boilerplate for AWS Lambda function (Node.js) that includes local test harness
 
-## Publishing to Lambda
+## Usage
+
+Simply clone the repository and then edit the function within *importigy.js*. Your should alsp rename the file to something more meaningful for your micro-service (if you do, just make sur eyou update the "require" within the test.js file). 
+
+## Testing Locally
+
+One of the benefits of this boilerplate is to test locally. To do this once you've made your changes, simply run:
+
+```bash
+> node test.js
+```
+
+## Publishing to AWS Lambda
+
+Once you're happy, deploy to AWS Lambda (it's free in most cases):
 
 1. Zip CONTENTS of this folder (NOT the folder, just the contents).
 2. From AWS, create a new AWS Lambda function with a event source e.g S3, DynamoDB, Kinesis.
