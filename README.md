@@ -5,7 +5,7 @@ Boilerplate for AWS Lambda function (Node.js) that includes local test harness
 ## Usage
 
 1. Clone this repository.
-2. Run `npm install` from the command line to install the Node dependencies describes in package.json.
+2. Run `npm install` from the command line to install the Node dependencies (described in package.json).
 3. Edit the function in *s3-event.js* (you may also want to rename the file to something more meaningful for your micro-service - if you do, also update the "require" within the test.js file). 
 
 ## Testing Locally
