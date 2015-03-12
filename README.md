@@ -1,6 +1,6 @@
 # aws-lambda-boilderplate
 
-Boilerplate for AWS Lambda function (Node.js) that includes local test harness
+Boilerplate for AWS Lambda function trigger by any supported S3 event (e.g. file update or upload (put/post)). This repository also includes a test harness to help debug the Lambda function locally.
 
 ## Usage
 
